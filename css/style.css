@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+ul,
+li {
+    list-style: none;
+}
+.banner {
+    width: 100%;
+    height: 540px;
+    background-color: aliceblue;
+}
+.headImg {
+    border-radius: 50%;
+    background-color: gray;
+    height: 154px;
+    width: 154px;
+    position: absolute;
+    left: 50%;
+    top: 540px;
+    margin: -77px;
+}
+section {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.info {
+    text-align: center;
+}
+.info > .name {
+    display: block;
+    font-family: Microsoft Yahei;
+    font-size: 40px;
+    margin-top: 127px;
+    margin-bottom: 30px;
+}
+.title {
+    font-size: 40px;
+    font-family: Microsoft Yahei;
+    display: block;
+    position: relative;
+    text-align: center;
+}
+.title:before,
+.title:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    background-color: #000000;
+    height: 5px;
+    width: 167px;
+}
+.title:before {
+    left: 20%;
+}
+.title:after {
+    right: 20%;
+}
+.msg {
+    display: flex;
+    justify-content: center;
+}
+.msg > .msgCard {
+    display: inline-block;
+    padding: 40px;
+    margin: 20px;
+}
+.head2 {
+    font-size: 25px;
+}
+.content {
+    color: gray;
+}
+.self-intro {
+    text-align: center;
+}
+.self-intro > .titleSmall {
+    display: block;
+    font-size: 25px;
+    margin: 0 auto;
+}
+.self-intro > p {
+    text-align: left;
+    padding: 50px;
+    font-size: 20px;
+    line-height: 2;
+    font-family: Microsoft JhengHei;
+}
+.experience {
+}
+.experience > ul {
+    margin-top: 30px;
+}
+.experience > ul > .exJob {
+}
+.exJob > .companyYears {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 20px;
+    padding-left: 50px;
+    position: relative;
+}
+.companyYears > .company {
+    font-size: 20px;
+}
+.companyYears > .company:before {
+    content: '';
+    height: 8px;
+    width: 8px;
+    background-color: #42a1df;
+    display: block;
+    border: 4px #42a1df solid;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    margin: -4px;
+}
+.companyYears > .timeline {
+    font-size: 16px;
+    color: gray;
+}
+.exJob > .desc {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 49%;
+    padding: 20px 40px;
+}
+.desc > .jobTitle {
+    font-size: 20px;
+    display: block;
+}
+.desc > .jobDesc {
+    color: gray;
+}
