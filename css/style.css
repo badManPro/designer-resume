@@ -10,6 +10,10 @@ li {
     width: 100%;
     height: 540px;
     background-color: aliceblue;
+    background-image: url("/img/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
 }
 .headImg {
     border-radius: 50%;
@@ -20,6 +24,10 @@ li {
     left: 50%;
     top: 540px;
     margin: -77px;
+    background-image: url("/img/headImg.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 section {
     max-width: 1140px;
@@ -66,8 +74,15 @@ section {
     padding: 40px;
     margin: 20px;
 }
+.msgCard > .icon {
+    margin-bottom: 30px;
+}
+.msgCard > .icon > img{
+    height: 50px;
+}
 .head2 {
     font-size: 25px;
+    margin-bottom: 8px;
 }
 .content {
     color: gray;
@@ -145,4 +160,80 @@ section {
 }
 .desc > .jobDesc {
     color: gray;
+}
+.skills {
+    margin-top: 50px;
+}
+.skills > ul {
+    text-align: center;
+    margin-top: 50px;
+}
+.skills > ul > .software {
+    display: inline-block;
+    height: 300px;
+    width: 49%;
+    box-sizing: border-box;
+}
+.software > .skillItem {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    line-height: 120px;
+    text-align: center;
+    font-size: 40px;
+    margin: 30px auto;
+}
+.PS {
+    background-color: #68b1dd;
+}
+.AI {
+    background-color: #e1a72d;
+}
+.software > span {
+    font-size: 20px;
+}
+.sectionContainer {
+    background-color: #3cb9db;
+}
+.works {
+    height: 400px;
+    color: #ffffff;
+    text-align: center;
+}
+.works > .title {
+    padding: 60px 0;
+}
+.works > .title:before,
+.works > .title:after{
+    background-color: #ffffff;
+}
+.works > .spanShow {
+    font-size: 30px;
+}
+.works > .btn {
+    border: 2px #ffffff solid;
+    height: 40px;
+    width: 40px;
+    margin: 50px auto;
+    border-radius: 50%;
+}
+.works > .btn:hover {
+    box-shadow: 3px 3px 5px #333333;
+    transition: all 1s;
+}
+.works > .btn > .arrow {
+    width: 0;
+    height: 0;
+    border: 10px solid;
+    border-color: #ffffff transparent transparent transparent;
+    position: relative;
+    margin: 20px auto;
+}
+.works > .btn > .arrow:after {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: -10px;
+    border: 10px solid;
+    border-color: #3cb9db transparent transparent transparent;
 }
