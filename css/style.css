@@ -71,14 +71,20 @@ section {
 }
 .content {
     color: gray;
+    line-height: 2;
+}
+.section-container {
+    background-color: #fbfbfb;
 }
 .self-intro {
     text-align: center;
+    height: 350px;
 }
 .self-intro > .titleSmall {
     display: block;
     font-size: 25px;
     margin: 0 auto;
+    padding-top: 50px;
 }
 .self-intro > p {
     text-align: left;
@@ -88,6 +94,10 @@ section {
     font-family: Microsoft JhengHei;
 }
 .experience {
+    margin-top: 80px;
+}
+.experience > .title {
+    margin-bottom: 80px;
 }
 .experience > ul {
     margin-top: 30px;
