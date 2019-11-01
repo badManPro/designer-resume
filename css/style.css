@@ -237,3 +237,69 @@ section {
     border: 10px solid;
     border-color: #3cb9db transparent transparent transparent;
 }
+.picDesign {
+    text-align: center;
+}
+.picDesign > span {
+    font-size: 20px;
+    margin: 50px;
+    display: block;
+}
+.swiper-container {
+    width: 1140px;
+}
+.swiper-wrapper > .swiper-slide {
+}
+.portable {
+    text-align: center;
+}
+.portable > span {
+    font-size: 20px;
+    display: block;
+    margin: 50px;
+}
+.portable > .picShow {
+}
+.portable > .picShow > img {
+    width: 20%;
+    padding: 2%;
+    box-shadow: 0px 3px 3px #333333;
+}
+.phoneApp {
+    text-align: center;
+}
+.phoneApp > span {
+    font-size: 20px;
+    display: block;
+    margin: 50px;
+}
+.phoneApp > img {
+    border: 1px gray solid;
+}
+.webEnd > .title{
+    font-size: 30px;
+    display: block;
+    margin: 100px 0;
+}
+.webFooter {
+    text-align: center;
+    background-color: #f3f3f3;
+    height: 300px;
+}
+.webFooter > .fri {
+    font-size: 20px;
+    display: block;
+    margin: 30px;
+}
+.webFooter > .sec {
+    font-size: 15px;
+    display: block;
+    margin: 30px;
+}
+.webFooter > .QRCode {
+    width: 120px;
+    height: 120px;
+    background-color: green;
+    margin: 0 auto;
+
+}
